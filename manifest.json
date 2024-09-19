@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "My Clickable Extension",
+  "version": "1.0",
+  "description": "Runs a script on icon click.",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ]
+}
+
